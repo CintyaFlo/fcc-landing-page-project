@@ -1,0 +1,77 @@
+:root {
+  --color-bg1: #10041a;
+  --color-bg2: #e6e6fa;
+  --color-font-body: #dadae6;
+  --color-text-h: #f5a9e4;
+  --color-text-h2: #f8c5ed;
+  --color-text-nav: #ebd4ec;
+}
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: lovesister;
+  src: url(/LoveYaLikeASister-Regular.ttf);
+}
+
+body {
+  background-image: url("Mask\ Group\ 21.png");
+  background-color: black;
+  color: var(--color-font-body);
+  margin: 0;
+  padding: 15px;
+  text-align: justify;
+}
+#header-img {
+  width: 45px;
+  height: 45px;
+  padding: 1%;
+  display: flex;
+  align-items: flex-start;
+}
+#nav-bar {
+  margin: 0;
+  padding: 1%;
+  overflow: hidden;
+  display: flex;
+  align-content: inherit;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--color-bg1);
+  width: 100%;
+  box-shadow: 2px 2px 8px #f404a0;
+}
+#nav-bar a {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 3%;
+  text-decoration: none;
+  color: var(--color-text-nav);
+  font-family: lovesister;
+  text-shadow: 2px 2px #f33cad8d;
+}
+
+#nav-bar a:hover {
+  color: var(--color-text-h);
+  text-decoration: none;
+  cursor: pointer;
+}
+h1,
+h2,
+h3 {
+  color: var(--color-text-h2);
+  font-family: lovesister;
+  text-align: center;
+  padding: 10px 5px;
+  text-shadow: 2px 2px 8px #f404a0;
+}
+#video {
+  display: block;
+  margin: auto;
+  width: 360px;
+  height: 215px;
+  padding-top: 50px;
+}
