@@ -75,7 +75,7 @@ h3 {
   padding: 10px 5px;
   text-shadow: 2px 2px 8px var(--color-box-shadow);
 }
-article {
+.initial-article {
   padding-top: 60px;
 }
 #video {
@@ -90,6 +90,7 @@ article {
   flex-direction: column;
   gap: 15px;
 }
+
 #emotions {
   display: flex;
   align-items: center;
@@ -101,10 +102,80 @@ article {
   float: left;
 }
 .color-box {
-  width: 40px;
+  width: 70px;
   height: 40px;
+  box-shadow: 2px 2px 8px var(--color-box-shadow);
+  display: flex;
+  align-content: center;
+  border-radius: 10px;
 }
-.color-boxes {
-  display: flexbox;
-  flex-direction: column;
+.colorboxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+article {
+  padding: 22px;
+}
+.button {
+  background-color: var(--color-bg1);
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  color: var(--color-bg2);
+  box-shadow: 2px 2px 8px rgb(243, 3, 231);
+  border-radius: 35px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+.button:hover {
+  background-color: var(--color-box-shadow);
+  color: #10041a;
+  text-decoration: double;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 8px var(#10041a);
+}
+#find-me {
+  padding: 30px 15px;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contact a {
+  text-decoration: none;
+  text-transform: var(--color-box-shadow);
+  color: #ebd4ec;
+  cursor: pointer;
+}
+#story {
+  width: 320px;
+  height: 200px;
+  margin-top: 20px;
+}
+.button2 {
+  background-color: var(--color-bg1);
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  color: var(--color-bg2);
+  box-shadow: 2px 2px 8px rgb(243, 3, 231);
+  border-radius: 35px;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+}
+.button2:hover {
+  background-color: var(--color-box-shadow);
+  color: #10041a;
+  text-decoration: double;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px 8px var(#10041a);
 }

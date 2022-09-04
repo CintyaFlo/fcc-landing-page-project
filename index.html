@@ -28,7 +28,7 @@
     </header>
     <main>
 
-        <article>
+        <article class="article-initial">
             <iframe id="video" src="https://www.youtube.com/embed/udyS-zETBFs" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -69,12 +69,12 @@
                 <div id="data-information">
 
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="full name of birth">
+                    <input class="box-input-radius" type="text" id="name" name="name" placeholder="full name of birth">
                     <label for="birth date">Birth date:</label>
-                    <input type="date" id="birth date" name="birth-date">
+                    <input class="box-input-radius" type="date" id="birth date" name="birth-date">
                     <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" placeholder="meunome@email.com" pattern=".+@globex\.com"
-                        size="30" required>
+                    <input class="box-input-radius" type="email" id="email" name="email" placeholder="meunome@email.com"
+                        pattern=".+@globex\.com" size="30" required>
                 </div>
                 <br>
                 <h3>Select the emotions you are experiencing right now:</h3>
@@ -133,12 +133,12 @@
                     </label>
                 </div>
                 <div>
-                    <h3>Quickly choose one of the colors below without thinking</h3>
+                    <h3 class>Quickly choose one of the colors below without thinking</h3>
                     <div class="colorboxes">
                         <article>
 
                             <input type="radio" name="color-scale" value="blue">
-                            <label for="blue">Blue</label>
+                            <label for="blue">Blue</label><br>
                             <img class="color-box"
                                 src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQLBA8rARsNgPLaaVbb_AbsvC4ftL9MeNRtN3vQvShlMdM9FkOgzMIpx6xMJ20l_RsUBH4omgHOQ6poyICxrg&s=19"
                                 height="30" alt="">
@@ -146,7 +146,7 @@
 
                         <article>
                             <input type="radio" name="color-scale" value="Red">
-                            <label for="Red">Red</label>
+                            <label for="Red">Red</label><br>
                             <img class="color-box"
                                 src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRyCcxTlCMwrMmDeWtpy0uL-X4b40UGlTt3Ai_-dn_URV8jy4lbFa95KLEV5vdfYTE3XA-NWDQPPE0OOfb-1Q&s=19"
                                 height="30" alt="">
@@ -154,7 +154,7 @@
 
                         <article>
                             <input type="radio" name="color-scale" value="Green">
-                            <label for="Green">Green</label>
+                            <label for="Green">Green</label><br>
                             <img class="color-box"
                                 src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR_NqHhM54_G5YkONys9JR7oj4JvA1OxKE_aUDJrHy__4DUnW4OaZ26rYDRMrbCXU8R1eNhrGDfpg_qhegkNg&s=19"
                                 height="30" alt="">
@@ -162,7 +162,7 @@
 
                         <article>
                             <input type="radio" name="color-scale" value="Pink">
-                            <label for="Pink">Pink</label>
+                            <label for="Pink">Pink</label><br>
                             <img class="color-box"
                                 src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTpVGcUOiq2_3g7RBqiGtsv7Lc5xE363VZcWJ4u2POU7tzJqmgWUSh2INeLSlNfL0hKLqSI8LvM0NjJjGC21g&s=19"
                                 height="30" alt="">
@@ -170,7 +170,7 @@
 
                         <article>
                             <input type="radio" name="color-scale" value="Yellow">
-                            <label for="Yellow">Yellow</label>
+                            <label for="Yellow">Yellow</label><br>
                             <img class="color-box"
                                 src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTSnaRihs7pAXhUFWvWUFoEgsHnk1j18WZzS9b7gslR_NYq0X7tMQXimnPPvONw_Fm-qrWG_bFXYGCpcXU81A&s=19"
                                 height="30" alt="">
@@ -178,7 +178,7 @@
 
                         <article>
                             <input type="radio" name="color-scale" value="Black">
-                            <label for="Black">Black</label>
+                            <label for="Black">Black</label><br>
                             <img class="color-box"
                                 src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQZ49p9lAWtbYlu-m4k8A_12Lqf9EMTJjcWqcOvv4CCN50bl8fQ6TmlpxVf20TABrv6noamqwMYNl9Eh-6UxA&s=19"
                                 height="30" alt="">
@@ -186,7 +186,7 @@
 
                         <article>
                             <input type="radio" name="color-scale" value="Brown">
-                            <label for="Brown">Brown</label>
+                            <label for="Brown">Brown</label><br>
                             <img class="color-box"
                                 src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR-ccplD2KBmlvguoSIwLIAfc-26PgnLma_Gcl3yB2KVhUYMlnmRgAhrZwYXCBniap-iDs17Jdazm6vJsIi9g&s=19"
                                 height="30" alt="">
@@ -194,7 +194,7 @@
 
                         <article>
                             <input type="radio" name="color-scale" value="White">
-                            <label for="White">White</label>
+                            <label for="White">White</label><br>
                             <img class="color-box"
                                 src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRuGP-OEOirzMPsX7Zi3CYMcu_V-nDCEOR8MsnYaj5-sd5q-hL4AB01PmNJc_8ANY8I86tD3iUotG2q046D&s=19"
                                 height="30" alt="">
@@ -202,7 +202,7 @@
 
                         <article>
                             <input type="radio" name="color-scale" value="Grey">
-                            <label for="Grey">Grey</label>
+                            <label for="Grey">Grey</label><br>
                             <img class="color-box"
                                 src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTYRXsCz7RwUMf79UHDQnb6dMSKH4VBQJoRsjUFDQHFAX0P0zWEG8KhdgAkJOVhnQyQDkTU15ibI27Te-2_&amp;s=19"
                                 height="30" alt="">
@@ -210,7 +210,7 @@
 
                         <article>
                             <input type="radio" name="color-scale" value="Orange">
-                            <label for="Orange">Orange</label>
+                            <label for="Orange">Orange</label><br>
                             <img class="color-box"
                                 src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ9JSFTkFNE2Vr9vrSZi69DN_EvpHB4Zx9E95SCYEcu9cMWjAgfmRpxweCYVp35ilTt2xQsxyqSj1rVDHM1&s=19"
                                 height="30" alt="">
@@ -218,35 +218,40 @@
                     </div>
 
                 </div>
-                <input id="submit" type="submit" value="Submit">
+                <input class="button" id="submit" type="submit" value="Submit">
 
             </form>
         </div>
         <div id="find-me">
             <h2>Find me on social media</h2>
-            <a href="https://www.facebook.com/meuartelie" target="_blank"><img id="box-color"
-                    src="https://seeklogo.com/images/F/facebook-icon-logo-C61047A9E7-seeklogo.com.png" height="30"
-                    alt=""></a>
-            <p>On facebook</p>
+            <div class="contact">
 
-            <a href="https://www.instagram.com/meuartelie/" target="_blank"><img id="box-color"
-                    src="https://seeklogo.com/images/I/instagram-logo-041EABACE1-seeklogo.com.png" height="30"
-                    alt=""></a>
-            <p>On instagram</p>
+                <a href="https://www.instagram.com/meuartelie/" target="_blank"><img id="box-color"
+                        src="https://seeklogo.com/images/I/instagram-logo-041EABACE1-seeklogo.com.png" height="30"
+                        alt=""> On instagram</a>
+
+                <a href="https://www.facebook.com/meuartelie" target="_blank"><img id="box-color"
+                        src="https://seeklogo.com/images/F/facebook-icon-logo-C61047A9E7-seeklogo.com.png" height="30"
+                        alt=""> On facebook</a>
+
+
+            </div>
 
             <h2>Or send me a message</h2>
             <form id="form-message" action="flores.cd@gmail.com">
                 <label for="message">Would you like more information about your test?</label><br>
-                <input type="text" id="fname" name="fname" placeholder="Tell me more about your curiosity here..."><br>
-            </form>
+                <textarea id="story" name="curiositt" rows="5" cols="33"
+                    placeholder="Tell me more about your curiosity here...">tell me more about your curiosity....</textarea>
 
+                <br>
+            </form>
+            <input class="button2" id="submit" type="submit" value="Submit">
         </div>
 
 
 
 
 
-        <script src="Logo_small.webp" async defer></script>
     </main>
 </body>
 
